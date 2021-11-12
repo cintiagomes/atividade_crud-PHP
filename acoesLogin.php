@@ -16,6 +16,8 @@
 
             $resultado = mysqli_query($conexao, $sql);
 
+            header("location: login/index.php");
+
             break;
         
         default:

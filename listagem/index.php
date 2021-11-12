@@ -40,7 +40,7 @@
     ?>    
 
             <tr>
-                <th><?php echo $cod_pessoa?></th>
+                <th><?php echo $id?></th>
                 <th><?php echo $nome?></th>
                 <th><?php echo $sobrenome?></th>
                 <th><?php echo $email?></th>
