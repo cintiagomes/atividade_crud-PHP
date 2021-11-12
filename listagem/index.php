@@ -31,7 +31,7 @@
     <?php
 
         while($usuario = mysqli_fetch_array($resultado)){
-            $id = $usuario["cod_pessoa"];
+            $cod_pessoa = $usuario["cod_pessoa"];
             $nome = $usuario["nome"];
             $sobrenome = $usuario["sobrenome"];
             $email = $usuario["email"];
@@ -40,7 +40,7 @@
     ?>    
 
             <tr>
-                <th><?php echo $id?></th>
+                <th><?php echo $cod_pessoa?></th>
                 <th><?php echo $nome?></th>
                 <th><?php echo $sobrenome?></th>
                 <th><?php echo $email?></th>

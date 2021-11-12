@@ -18,8 +18,8 @@
             </div>
             <div class="card-body">
                 <form method="post" action="../acoesLogin.php">
-                    <input type="hidden" name="acao" value="inserir">
-                    <input class="form-control" type="text" placeholder="Digite o nome" name="nome" id="nome">
+                    <input type="hidden" name="acoes" value="inserir">
+                    <input class="form-control" type="text" placeholder="Digite o nome" name="nome" value="" id="nome">
                     <br />
                     <input class="form-control" type="text" placeholder="Digite o sobrenome" name="sobrenome" id="sobrenome">
                     <br />
